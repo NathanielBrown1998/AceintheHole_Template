@@ -18,17 +18,20 @@ body {
 #contact-style {
     margin: 0;
     padding: 0;
-    height: 100%;
-    text-align: center;
+    /*height: 100%;*/
+    /*text-align: center;*/
     background-size: cover;
     background-position: center;
     font-family: 'Roboto', sans-serif;
+    margin-left: 38%;
 }
 
 .contact-title {
     padding-top: 2em;
-    color: #fff;
+    margin-top: 2em;
+    color: black;
     text-transform: uppercase;
+    text-align: center;
     transition: all 4s ease-in-out;
 }
 
@@ -54,6 +57,7 @@ body {
     font-weight: bold;
     color: white;
     background-color: rgb(255, 0, 0);
+    height: 4em;
 }
 
 .form-control.submit:hover {
@@ -112,13 +116,15 @@ body {
 }
 
 main {
+    margin-left: 2em;
+    margin-right: 2em;
     margin-bottom: 2em;
 }
 
 #content {
     border: inset rgb(255, 0, 0) 1em;
     margin-bottom: 20px;
-    margin-top: 2em;
+    margin-top: 4em;
 }
 
 #sideContent {}
@@ -136,6 +142,12 @@ main p {
     font-size: 1.2em;
 }
 
+/*testing LESS MIXINS*/
+main h1 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 main p,
 main h1,
 main h2,
@@ -143,9 +155,10 @@ main h3,
 main h4,
 main h5,
 main h6 {
-    margin-left: 40px;
-    margin-right: 40px;
+    main h1;
 }
+
+/*end less mixins*/
 
 main h1,
 main h2,
@@ -217,7 +230,6 @@ h1 {
 .nav {
     border-bottom: 1px solid #EAEAEB;
     text-align: right;
-    height: 80px;
     line-height: 80px;
 }
 
@@ -231,6 +243,7 @@ h1 {
 }
 
 .menu a {
+    font-size: 1.2em;
     clear: right;
     text-decoration: none;
     color: rgb(255, 0, 0);
@@ -455,6 +468,7 @@ h1 {
     }
 
     .menu a {
+        font-size: 1em;
         display: block;
         border-bottom: 1px solid #EAEAEB;
         margin: 0;
@@ -462,6 +476,7 @@ h1 {
 
     #toggle:checked + .menu {
         display: block;
+        z-index: 2;
     }
 
     h1 {
@@ -474,7 +489,17 @@ h1 {
 }
 
 @media only screen and (max-width: 600px) {
+
     #hidden {
         display: none;
+    }
+
+    #contact-style {
+        margin-left: 5%;
+    }
+
+    main {
+        margin-left: 0;
+        margin-right: 0;
     }
 }

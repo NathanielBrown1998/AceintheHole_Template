@@ -15,16 +15,19 @@ body {
 #contact-style {
   margin: 0;
   padding: 0;
-  height: 100%;
-  text-align: center;
+  /*height: 100%;*/
+  /*text-align: center;*/
   background-size: cover;
   background-position: center;
   font-family: 'Roboto', sans-serif;
+  margin-left: 38%;
 }
 .contact-title {
   padding-top: 2em;
-  color: #fff;
+  margin-top: 2em;
+  color: black;
   text-transform: uppercase;
+  text-align: center;
   transition: all 4s ease-in-out;
 }
 .contact-title h2 {
@@ -45,6 +48,7 @@ body {
   font-weight: bold;
   color: white;
   background-color: #ff0000;
+  height: 4em;
 }
 .form-control.submit:hover {
   cursor: pointer;
@@ -83,12 +87,14 @@ body {
   width: 100%;
 }
 main {
+  margin-left: 2em;
+  margin-right: 2em;
   margin-bottom: 2em;
 }
 #content {
   border: inset #ff0000 1em;
   margin-bottom: 20px;
-  margin-top: 2em;
+  margin-top: 4em;
 }
 #feed {
   text-align: center;
@@ -167,7 +173,6 @@ h1 {
 .nav {
   border-bottom: 1px solid #EAEAEB;
   text-align: right;
-  height: 80px;
   line-height: 80px;
 }
 .nav a:hover {
@@ -373,6 +378,7 @@ h1 {
   }
   #toggle:checked + .menu {
     display: block;
+    z-index: 2;
   }
   h1 {
     display: block;
@@ -384,5 +390,12 @@ h1 {
 @media only screen and (max-width: 600px) {
   #hidden {
     display: none;
+  }
+  #contact-style {
+    margin-left: 5%;
+  }
+  main {
+    margin-left: 0;
+    margin-right: 0;
   }
 }

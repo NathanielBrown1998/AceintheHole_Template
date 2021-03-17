@@ -58,11 +58,11 @@ if(isset($_GET['logout'])){
         </nav>
     </header>
 
-    <main>
+    <div id="hidden">
+        <img src="hero.jpg" class="center" alt="Ace in the Hole Multisport Banner">
+    </div>
 
-        <div id="hidden">
-            <img src="hero.jpg" class="center" alt="Ace in the Hole Multisport Banner">
-        </div>
+    <main>
 
         <div id="content">
             <h2>What We Do</h2>

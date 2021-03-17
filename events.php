@@ -59,11 +59,11 @@ if(isset($_GET['logout'])){
         </nav>
     </header>
 
-    <main>
+    <div id="hidden">
+        <img src="hero1.jpg" class="center" alt="Ace in the Hole Multisport Banner">
+    </div>
 
-        <div id="hidden">
-            <img src="hero1.jpg" class="center" alt="Ace in the Hole Multisport Banner">
-        </div>
+    <main>
 
         <a class="weatherwidget-io" href="https://forecast7.com/en/45d52n122d68/portland/?unit=us" data-label_1="PORTLAND" data-label_2="WEATHER" data-theme="pure">PORTLAND WEATHER</a>
         <script>
@@ -98,27 +98,27 @@ if(isset($_GET['logout'])){
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
                 <div class="numbertext">1 / 5</div>
-                <img src="slideshow1/img0.jpg" style="width:100%">
+                <img src="slideshow1/img0.jpg" style="width:100%" alt="Splash n Dash Event">
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">2 / 5</div>
-                <img src="slideshow1/img1.jpg" style="width:100%">
+                <img src="slideshow1/img1.jpg" style="width:100%" alt="Marathon Event">
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">3 / 5</div>
-                <img src="slideshow1/img2.jpg" style="width:100%">
+                <img src="slideshow1/img2.jpg" style="width:100%" alt="10K Event">
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">4 / 5</div>
-                <img src="slideshow1/img3.jpg" style="width:100%">
+                <img src="slideshow1/img3.jpg" style="width:100%" alt="Marathon Event">
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">5 / 5</div>
-                <img src="slideshow1/img4.jpg" style="width:100%">
+                <img src="slideshow1/img4.jpg" style="width:100%" alt="Triathlon Event">
             </div>
 
             <!-- Next and previous buttons -->
@@ -176,7 +176,7 @@ if(isset($_GET['logout'])){
             <ul>
                 <li class="prev">&#10094;</li>
                 <li class="next">&#10095;</li>
-                <li>March<br><span style="font-size:18px">2021</span></li>
+                <li>March<br><span style="font-size:18px">2021</span><br><br><span style="font-size:14px">Events are Highlighted in RED</span></li>
             </ul>
         </div>
 
@@ -200,13 +200,13 @@ if(isset($_GET['logout'])){
             <li>7</li>
             <li>8</li>
             <li>9</li>
-            <li><span class="active">10</span></li>
+            <li>10</li>
             <li>11</li>
             <li>12</li>
             <li>13</li>
             <li>14</li>
             <li>15</li>
-            <li>16</li>
+            <li><span class="active">16</span></li>
             <li>17</li>
             <li>18</li>
             <li>19</li>

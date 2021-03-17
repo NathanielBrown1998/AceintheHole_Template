@@ -83,7 +83,7 @@
                 </div>
 
                 <div class="formstyle">
-                    <label for="athlete">Lifstyle: </label>
+                    <label for="athlete">Role: </label>
                     <select id="athlete" name="athlete" required>
                         <option value="athlete">Athlete</option>
                         <option value="volunteer">Volunteer</option>

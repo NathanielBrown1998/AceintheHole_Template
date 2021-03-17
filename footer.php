@@ -1,3 +1,3 @@
 <?php 
-echo "<p>&copy; Ace in the Hole Multisports, 2021</p>";
+echo "<p>&copy; Ace in the Hole Multisport Events   -   2021</p>";
 ?>
